@@ -40,15 +40,16 @@ Number of haplotypes: $n_{\text{hap}} = 44$
 
 A rough estimate of effective population size was derived using Watterson’s estimator:
 
-\[
-N_e \approx \frac{\tfrac{S}{L}}{4 \mu \, a_{n-1}}
-\]
+$$
+N_e \;\approx\; \frac{S / L}{4 \, \mu \, a_{n-1}}
+$$
 
-where:
-- $\S = number of segregating sites,  
-- \( L \) = sequence length (bp),  
-- \( a_{n-1} \) = harmonic number for \( n-1 \),  
-- \( \mu \) = mutation rate.  
+where:  
+- $S$ = number of segregating sites  
+- $L$ = sequence length (bp)  
+- $a_{n-1}$ = harmonic number for $n-1$  
+- $\mu$ = mutation rate  
+
 
 To select an appropriate **window size**, exploratory analysis was performed in `Decoy.ipynb` by comparing **global summary statistics** (e.g., Tajima’s D vs. genomic coordinate).
 
