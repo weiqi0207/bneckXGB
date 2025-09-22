@@ -1,0 +1,5 @@
+python XGBoost_bneck.py \
+  --csv train_bneck_LD.csv \
+  --outdir xgb_results \
+  --seed 42 \
+  --targets T_generations post_decline_fraction
