@@ -19,6 +19,7 @@ This repository implements an **XGBoost-based approach** to detect and character
 
 The organizers specified the following parameters:
 
+
 Generation time: $1\ \text{year}$
 
 Mutation rate (per bp per generation): $\mu = 1.4 \times 10^{-8}$
@@ -30,12 +31,10 @@ Genomic region length: $L = 1.0 \times 10^{8}\ \text{bp}$
 Number of haplotypes: $n_{\text{hap}} = 44$
 
 
-The input test file was provided as a compressed VCF:
+**The input test file was provided as a compressed VCF:**
 
-GHIST_2025_bottleneck.testing.vcf.gz
+`GHIST_2025_bottleneck.testing.vcf.gz`
 
-yaml
-Copy code
 
 ### Effective Population Size Estimation
 
@@ -46,7 +45,7 @@ N_e \approx \frac{\tfrac{S}{L}}{4 \mu \, a_{n-1}}
 \]
 
 where:
-- \( S \) = number of segregating sites,  
+- $\S = number of segregating sites,  
 - \( L \) = sequence length (bp),  
 - \( a_{n-1} \) = harmonic number for \( n-1 \),  
 - \( \mu \) = mutation rate.  
