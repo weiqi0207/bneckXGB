@@ -17,25 +17,33 @@ XGBoost models to detect/quantify population bottlenecks from msprime-simulated 
 
 This repository implements an **XGBoost-based approach** to detect and characterize **population bottlenecks** from simulated genomic features.  
 
-The work was developed in the context of the **GHIST 2025 bottleneck challenge**, where the organizers provided the following demographic and sequencing parameters:
+The organizers specified the following parameters:
 
-- **Generation time**: 1 year
-- **Mutation rate (per generation per base pair)**:  
+- **Generation time**:  
+  \[
+  1 \ \text{year}
+  \]
+
+- **Mutation rate (per bp per generation)**:  
   \[
   \mu = 1.4 \times 10^{-8}
   \]
-- **Recombination rate (per generation per base pair)**:  
+
+- **Recombination rate (per bp per generation)**:  
   \[
   r = 1.5 \times 10^{-8}
   \]
+
 - **Genomic region length**:  
   \[
-  L = 100,000,000 \ \text{bp}
+  L = 1.0 \times 10^{8} \ \text{bp}
   \]
+
 - **Number of haplotypes**:  
   \[
   n_{\text{hap}} = 44
   \]
+
 
 The input test file was provided as a compressed VCF:
 
