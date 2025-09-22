@@ -1,0 +1,10 @@
+# Example paths
+FEATURES=GHIST_2025_bottleneck.features.csv        # from the VCF extractor
+TRAINCSV=train_bneck_LD.csv                      # any of your training CSVs (or a concat of them)
+MODELDIR=xgb_out_moreT                           # where your training script saved models + summary.json
+
+python XG_pred.py \
+  --features_csv "$FEATURES" \
+  --train_csv "$TRAINCSV" \
+  --model_dir "$MODELDIR" \
+  --out_prefix "bneck_pred"
