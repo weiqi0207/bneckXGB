@@ -19,30 +19,15 @@ This repository implements an **XGBoost-based approach** to detect and character
 
 The organizers specified the following parameters:
 
-- **Generation time**:  
-  \[
-  1 \ \text{year}
-  \]
+Generation time: $1\ \text{year}$
 
-- **Mutation rate (per bp per generation)**:  
-  \[
-  \mu = 1.4 \times 10^{-8}
-  \]
+Mutation rate (per bp per generation): $\mu = 1.4 \times 10^{-8}$
 
-- **Recombination rate (per bp per generation)**:  
-  \[
-  r = 1.5 \times 10^{-8}
-  \]
+Recombination rate (per bp per generation): $r = 1.5 \times 10^{-8}$
 
-- **Genomic region length**:  
-  \[
-  L = 1.0 \times 10^{8} \ \text{bp}
-  \]
+Genomic region length: $L = 1.0 \times 10^{8}\ \text{bp}$
 
-- **Number of haplotypes**:  
-  \[
-  n_{\text{hap}} = 44
-  \]
+Number of haplotypes: $n_{\text{hap}} = 44$
 
 
 The input test file was provided as a compressed VCF:
