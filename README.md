@@ -1,2 +1,2 @@
 # bneckXGB
-XGBoost models to detect/quantify population bottlenecks from msprime-simulated genomic features (Tajima’s D, SFS bins, LD, π, θW). Input: CSV.
+XGBoost models to detect/quantify population bottlenecks from msprime-simulated genomic features (Tajima’s D, SFS bins, LD, π, θW).
